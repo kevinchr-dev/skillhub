@@ -47,7 +47,7 @@
             
             <!-- Markdown Content Area -->
             <!-- Class 'prose' dan 'prose-invert' (untuk dark mode) adalah magic dari @tailwindcss/typography -->
-            <article class="prose prose-invert prose-zinc max-w-none 
+            <article class="markdown-content prose prose-invert prose-zinc max-w-none 
                 prose-headings:font-bold prose-headings:tracking-tight prose-a:text-indigo-400 
                 prose-img:rounded-2xl prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-zinc-800">
                 

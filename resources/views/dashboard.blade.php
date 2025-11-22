@@ -7,10 +7,10 @@
         <p class="text-zinc-500 mt-1">Selamat datang kembali di SkillHub Control Center.</p>
     </div>
     <div class="flex gap-3">
-        <a href="{{ route('students.create') }}" class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-sm font-medium rounded-xl transition-colors border border-zinc-700">
+        <a href="{{ route('students.index') }}" class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-sm font-medium rounded-xl transition-colors border border-zinc-700">
             + Peserta
         </a>
-        <a href="{{ route('courses.create') }}" class="px-4 py-2 bg-white text-black hover:bg-zinc-200 text-sm font-medium rounded-xl transition-colors shadow-lg shadow-white/5">
+        <a href="{{ route('courses.index') }}" class="px-4 py-2 bg-white text-black hover:bg-zinc-200 text-sm font-medium rounded-xl transition-colors shadow-lg shadow-white/5">
             + Kelas Baru
         </a>
     </div>
