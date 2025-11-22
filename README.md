@@ -53,7 +53,7 @@ Menyajikan informasi sistem secara instan:
 * **Backend:** Laravel Framework v12.x
 * **Frontend:** Blade Template + Tailwind CSS v4
 * **Build Tool:** Vite
-* **Database:** MySQL 8.0+
+* **Database:** MySQL 12.1+
 * **UUID Generator:** Ramsey UUID v4.9 (UUID v7)
 * **Testing:** PHPUnit v11.5
 
