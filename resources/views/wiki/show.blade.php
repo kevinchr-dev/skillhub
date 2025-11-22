@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dokumentasi SkillHub</title>
+    <title>Wiki SkillHub</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -21,12 +21,12 @@
         <div class="p-6">
             <a href="/" class="flex items-center gap-2 mb-8 text-white font-bold text-xl tracking-tight">
                 <div class="w-3 h-3 bg-indigo-500 rounded-full"></div>
-                SkillHub Docs.
+                Wiki SkillHub.
             </a>
 
             <nav class="space-y-1">
                 @foreach($menu as $key => $label)
-                    <a href="{{ route('docs.show', $key) }}" 
+                    <a href="{{ route('wiki.show', $key) }}" 
                        class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors {{ $file === $key ? 'bg-indigo-500/10 text-indigo-400 border border-indigo-500/20' : 'text-zinc-400 hover:text-white hover:bg-zinc-800' }}">
                         {{ $label }}
                     </a>

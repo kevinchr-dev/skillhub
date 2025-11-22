@@ -32,9 +32,10 @@ class DocumentationController extends Controller
             'tech_stack' => 'Tech Stack',
             'erd' => 'ERD Database',
             'class_diagram' => 'Class Diagram',
-            'testing_report' => 'Hasil Testing'
+            'testing_report' => 'Hasil Testing',
+            'wireframe_report' => 'Wireframe (Design Awal)'
         ];
 
-        return view('docs.show', compact('htmlContent', 'menu', 'file'));
+        return view('wiki.show', compact('htmlContent', 'menu', 'file'));
     }
 }

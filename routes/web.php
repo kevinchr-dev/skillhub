@@ -25,4 +25,4 @@ Route::delete('/enrollments', [EnrollmentController::class, 'destroy'])->name('e
 Route::get('/students/{id}/courses', [EnrollmentController::class, 'showStudentCourses'])->name('students.courses');
 Route::get('/courses/{id}/students', [EnrollmentController::class, 'showCourseStudents'])->name('courses.students');
 
-Route::get('/docs/{file?}', [DocumentationController::class, 'show'])->name('docs.show');
+Route::get('/wiki/{file?}', [DocumentationController::class, 'show'])->name('wiki.show');

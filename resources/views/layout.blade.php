@@ -38,9 +38,6 @@
                     </a>
                 </div>
             </div>
-            {{-- <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-zinc-800 to-zinc-700 border border-zinc-600 flex items-center justify-center text-xs font-bold text-white shadow-lg">
-                SH
-            </div> --}}
         </div>
     </nav>
 
@@ -80,7 +77,7 @@
     </main>
 
     <footer class="border-t border-zinc-900 py-8 text-center text-xs text-zinc-600">
-        &copy; {{ date('Y') }} SkillHub Learning Center.
+        &copy; {{ date('Y') }} SkillHub Learning Center <br> --- <br> Developed for certification purposes <br> Reyhan Jason
     </footer>
 
 </body>
