@@ -194,7 +194,7 @@ Pastikan server berjalan (`php artisan serve`), lalu akses halaman berikut:
 | **Testing Report** | Laporan hasil otomatisasi pengujian (Unit & Feature Testing). | [`/wiki/testing_report`](http://localhost:8000/wiki/testing_report) |
 | **Wireframe UI/UX** | Laporan rancangan desain awal (Low-Fidelity Wireframe). | [`/wiki/wireframe_report`](http://localhost:8000/wiki/wireframe_report) |
 
-> **Catatan:** Jika Anda mengakses dari local environment, ganti URL dengan `http://localhost:8000`.
+![Wiki](/docs/skillhub-wiki.png)
 
 ---
 
